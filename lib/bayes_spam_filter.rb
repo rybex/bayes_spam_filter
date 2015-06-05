@@ -1,5 +1,5 @@
-require "bayes_spam_filter/version"
-
-module BayesSpamFilter
-  # Your code goes here...
-end
+require 'bayes_spam_filter/analyzer'
+require 'bayes_spam_filter/read_file'
+require 'bayes_spam_filter/train_words'
+require 'bayes_spam_filter/word'
+require 'bayes_spam_filter/verify_message'
